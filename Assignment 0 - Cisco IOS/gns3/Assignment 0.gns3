@@ -50,14 +50,14 @@
                 "rotation": 0,
                 "svg": "<svg height=\"156\" width=\"280\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"156\" stroke=\"#000000\" stroke-width=\"2\" width=\"280\" /></svg>",
                 "x": 1,
-                "y": -140,
+                "y": -141,
                 "z": 0
             },
             {
                 "drawing_id": "70a2841e-61e5-4459-aeee-9bdf902d9f9d",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"40\" width=\"99\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Local network\n</text></svg>",
+                "svg": "<svg height=\"50\" width=\"129\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Local network\n</text></svg>",
                 "x": -260,
                 "y": -170,
                 "z": 2
@@ -69,6 +69,42 @@
                 "svg": "<svg height=\"24\" width=\"89\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lab network</text></svg>",
                 "x": 98,
                 "y": -172,
+                "z": 2
+            },
+            {
+                "drawing_id": "6c3b1656-db4d-457e-8fe9-85b4efea817a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"127\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\"> 10.254.0.254</text></svg>",
+                "x": 139,
+                "y": -18,
+                "z": 2
+            },
+            {
+                "drawing_id": "e4a9e7f5-a14f-40b3-a269-2c1f9f3bdb83",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"144\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.63.100</text></svg>",
+                "x": -329,
+                "y": -17,
+                "z": 2
+            },
+            {
+                "drawing_id": "82e7d93a-1270-4b58-a302-25edbf96465d",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"144\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.63.254\n</text></svg>",
+                "x": -187,
+                "y": 32,
+                "z": 2
+            },
+            {
+                "drawing_id": "ec3fe390-53f5-4ef1-b790-ae840bc80626",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.254.0.3</text></svg>",
+                "x": -8,
+                "y": 31,
                 "z": 2
             }
         ],
@@ -151,8 +187,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "PC",
-                    "x": 20,
-                    "y": -24
+                    "x": 17,
+                    "y": -25
                 },
                 "locked": false,
                 "name": "PC",
@@ -193,7 +229,7 @@
                 "symbol": ":/symbols/vpcs_guest.svg",
                 "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
                 "width": 65,
-                "x": 168,
+                "x": 167,
                 "y": -85,
                 "z": 1
             },
@@ -228,7 +264,7 @@
                     "dynamips_id": 1,
                     "exec_area": 64,
                     "idlemax": 500,
-                    "idlepc": "",
+                    "idlepc": "0x0",
                     "idlesleep": 30,
                     "image": "c2600.image",
                     "image_md5sum": "485b25e6b06775dcb99eb204e3a1def4",
@@ -251,7 +287,7 @@
                 "template_id": "30bbbdd4-c6cb-4ab7-8c91-3d1c932859d6",
                 "width": 66,
                 "x": -65,
-                "y": -80,
+                "y": -79,
                 "z": 1
             }
         ]
