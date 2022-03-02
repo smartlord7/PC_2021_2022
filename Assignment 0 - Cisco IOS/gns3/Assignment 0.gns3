@@ -1,0 +1,263 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "Scenario 1",
+    "project_id": "296e35d0-449d-4a91-b388-9ad42786b301",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": false,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "8a8f5031-4391-4db6-9c32-a38eed19c336",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"40\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">e0/0</text></svg>",
+                "x": -114,
+                "y": -51,
+                "z": 2
+            },
+            {
+                "drawing_id": "83e24323-7701-4dca-8818-40c16f6d5c7c",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"37\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">f1/0</text></svg>",
+                "x": 3,
+                "y": -47,
+                "z": 2
+            },
+            {
+                "drawing_id": "cc20471a-1c6f-4229-8965-2f5d1d21c963",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"161\" width=\"283\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"161\" stroke=\"#000000\" stroke-width=\"2\" width=\"283\" /></svg>",
+                "x": -349,
+                "y": -140,
+                "z": -1
+            },
+            {
+                "drawing_id": "cb471387-319b-49de-b258-64c085bc852a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"156\" width=\"280\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"156\" stroke=\"#000000\" stroke-width=\"2\" width=\"280\" /></svg>",
+                "x": 1,
+                "y": -140,
+                "z": 0
+            },
+            {
+                "drawing_id": "70a2841e-61e5-4459-aeee-9bdf902d9f9d",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"40\" width=\"99\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Local network\n</text></svg>",
+                "x": -260,
+                "y": -170,
+                "z": 2
+            },
+            {
+                "drawing_id": "76036297-9380-4a94-83dc-4882523ffc28",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"89\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lab network</text></svg>",
+                "x": 98,
+                "y": -172,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "9b060333-0f2d-44ef-a6b0-74d4f8460b86",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 72,
+                            "y": 29
+                        },
+                        "node_id": "f882942e-fe15-423e-99ab-a0586fe65593",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -6,
+                            "y": 22
+                        },
+                        "node_id": "8fffb6e0-a28e-4e8f-b2d8-c0ddc80e59cb",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "948fc15c-31de-447d-a137-f7f21576c786",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 72,
+                            "y": 22
+                        },
+                        "node_id": "8fffb6e0-a28e-4e8f-b2d8-c0ddc80e59cb",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -7,
+                            "y": 29
+                        },
+                        "node_id": "dfa1d574-1c06-4260-acfa-e41ac7767374",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "PC",
+                    "x": 20,
+                    "y": -24
+                },
+                "locked": false,
+                "name": "PC",
+                "node_id": "f882942e-fe15-423e-99ab-a0586fe65593",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": -294,
+                "y": -86,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5003,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "LabServer",
+                    "x": -5,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "LabServer",
+                "node_id": "dfa1d574-1c06-4260-acfa-e41ac7767374",
+                "node_type": "vpcs",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {},
+                "symbol": ":/symbols/vpcs_guest.svg",
+                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
+                "width": 65,
+                "x": 168,
+                "y": -85,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5004,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Router",
+                    "x": 6,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Router",
+                "node_id": "8fffb6e0-a28e-4e8f-b2d8-c0ddc80e59cb",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "2610",
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c2600.image",
+                    "image_md5sum": "485b25e6b06775dcb99eb204e3a1def4",
+                    "iomem": 5,
+                    "mac_addr": "c801.6414.0000",
+                    "mmap": true,
+                    "nvram": 128,
+                    "platform": "c2600",
+                    "ram": 80,
+                    "slot0": "C2600-MB-1E",
+                    "slot1": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": "WIC-1T",
+                    "wic1": null,
+                    "wic2": null
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "30bbbdd4-c6cb-4ab7-8c91-3d1c932859d6",
+                "width": 66,
+                "x": -65,
+                "y": -80,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.29",
+    "zoom": 100
+}
