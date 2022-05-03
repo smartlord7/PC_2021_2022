@@ -1,0 +1,49 @@
+May 03 11:49:34.035 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 03 11:49:34.036 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65133.
+May 03 11:49:34.561 HYPERVISOR: exec_cmd: hypervisor version 
+May 03 11:49:34.562 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips 
+May 03 11:49:34.562 GENERAL: working_dir=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips
+May 03 11:49:34.562 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\2a953d7e-d288-4d28-b0fb-66f184787140 
+May 03 11:49:34.562 GENERAL: working_dir=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\2a953d7e-d288-4d28-b0fb-66f184787140
+May 03 11:49:34.562 HYPERVISOR: exec_cmd: vm create R2 3 c2600 
+May 03 11:49:34.564 VM: VM R2 created.
+May 03 11:49:34.565 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+May 03 11:49:34.565 HYPERVISOR: exec_cmd: c2600 get_mac_addr R2 
+May 03 11:49:34.567 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+May 03 11:49:34.570 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 11:49:34.570 HYPERVISOR: exec_cmd: c2600 set_iomem R2 5 
+May 03 11:49:34.571 HYPERVISOR: exec_cmd: c2600 set_mac_addr R2 c803.48ec.0000 
+May 03 11:49:34.571 HYPERVISOR: exec_cmd: vm set_ram R2 80 
+May 03 11:49:34.572 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 11:49:34.572 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+May 03 11:49:34.572 HYPERVISOR: exec_cmd: vm set_sparse_mem R2 1 
+May 03 11:49:34.572 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 11:49:34.572 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-1T 
+May 03 11:49:34.930 HYPERVISOR: exec_cmd: nio create_udp udp-3a60f8c3-8138-48bd-a11f-f457fef4b555 10004 127.0.0.1 10005 
+May 03 11:49:35.185 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-3a60f8c3-8138-48bd-a11f-f457fef4b555 
+May 03 11:49:35.185 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 11:49:35.507 HYPERVISOR: exec_cmd: nio create_udp udp-f96aefd7-661e-4cd3-8e8b-2fb29ad90274 10014 127.0.0.1 10015 
+May 03 11:49:35.517 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-f96aefd7-661e-4cd3-8e8b-2fb29ad90274 
+May 03 11:49:35.518 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 11:49:42.225 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+May 03 11:49:42.226 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost 
+May 03 11:49:42.226 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 11:49:42.226 HYPERVISOR: exec_cmd: vm set_config R2 configs\i3_startup-config.cfg 
+May 03 11:49:42.227 HYPERVISOR: exec_cmd: vm start R2 
+May 03 11:49:42.230 GHOST: loaded ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost (fd=11) at addr=0xf5a10000 (size=0x5000000)
+May 03 11:49:42.230 GHOST: loaded image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost successfully.
+May 03 11:50:12.535 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 11:53:12.592 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 11:56:12.632 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 12:02:21.446 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 12:02:21.447 HYPERVISOR: exec_cmd: vm stop R2 
+May 03 12:02:21.547 GHOST: unloaded ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost (fd=11) at addr=0xf5a10000 (size=0x5000000)
+May 03 12:02:21.687 VM: VM R2 shutdown.
+May 03 12:02:21.688 HYPERVISOR: exec_cmd: vm extract_config R2 
+May 03 12:02:33.210 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 12:02:33.212 HYPERVISOR: exec_cmd: vm set_config R2 configs\i3_startup-config.cfg 
+May 03 12:02:33.212 HYPERVISOR: exec_cmd: vm start R2 
+May 03 12:02:43.467 HYPERVISOR: exec_cmd: vm get_status R2 
+May 03 12:02:43.467 HYPERVISOR: exec_cmd: vm stop R2 
+May 03 12:02:43.525 VM: VM R2 shutdown.
+May 03 12:02:43.526 HYPERVISOR: exec_cmd: vm extract_config R2 

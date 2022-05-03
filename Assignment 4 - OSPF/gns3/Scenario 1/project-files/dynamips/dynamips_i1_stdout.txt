@@ -1,0 +1,12 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/ssimoes/Documents/GitRepos/PC_2021_2022/Assignment 4 - OSPF/gns3/Scenario 1/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+C2600 'Ghost': generic_nvram_extract_config: Unknown error -61605
+Unable to load ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost
+C2600 'R0': RAM_ghost: unable to create device (filename=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost)
+VM1: dev_create_ram_alias: unknown device 'ram'.
+insn_page_compile: unable to create JIT block.
+VM 'R0': unable to compile block for CPU0 IA=0x00000000
