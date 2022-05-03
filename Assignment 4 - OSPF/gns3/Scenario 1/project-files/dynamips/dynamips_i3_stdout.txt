@@ -1,5 +1,0 @@
-Unable to load ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost
-C2600 'R2': RAM_ghost: unable to create device (filename=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 1\project-files\dynamips\c2600.image-80.ghost)
-VM3: dev_create_ram_alias: unknown device 'ram'.
-insn_page_compile: unable to create JIT block.
-VM 'R2': unable to compile block for CPU0 IA=0x00000000

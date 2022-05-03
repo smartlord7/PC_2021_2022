@@ -1,0 +1,59 @@
+May 03 12:04:01.750 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 03 12:04:01.750 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65429.
+May 03 12:04:02.244 HYPERVISOR: exec_cmd: hypervisor version 
+May 03 12:04:02.245 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips 
+May 03 12:04:02.245 GENERAL: working_dir=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips
+May 03 12:04:02.245 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\3d9ef6ac-5fb2-4f15-8f91-0032b3c12b0d 
+May 03 12:04:02.247 GENERAL: working_dir=C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\3d9ef6ac-5fb2-4f15-8f91-0032b3c12b0d
+May 03 12:04:02.247 HYPERVISOR: exec_cmd: vm create R3 3 c2600 
+May 03 12:04:02.249 VM: VM R3 created.
+May 03 12:04:02.250 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+May 03 12:04:02.250 HYPERVISOR: exec_cmd: c2600 get_mac_addr R3 
+May 03 12:04:02.251 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:04:02.251 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+May 03 12:04:02.251 HYPERVISOR: exec_cmd: vm set_sparse_mem R3 1 
+May 03 12:04:02.252 HYPERVISOR: exec_cmd: vm set_ram R3 80 
+May 03 12:04:02.252 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:04:02.252 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+May 03 12:04:02.253 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:04:02.253 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-1T 
+May 03 12:04:02.253 HYPERVISOR: exec_cmd: c2600 set_iomem R3 5 
+May 03 12:04:02.314 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:04:06.539 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:04:24.654 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:06:51.987 HYPERVISOR: exec_cmd: nio create_udp udp-7139fac5-f5da-4988-b6f8-f2692f986b25 10010 127.0.0.1 10011 
+May 03 12:06:52.243 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-7139fac5-f5da-4988-b6f8-f2692f986b25 
+May 03 12:06:52.244 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:06:58.996 HYPERVISOR: exec_cmd: nio create_udp udp-56b62d5a-de12-4a27-bb81-338278dfa362 10014 127.0.0.1 10015 
+May 03 12:06:59.000 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-56b62d5a-de12-4a27-bb81-338278dfa362 
+May 03 12:06:59.000 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:07:12.534 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:16:07.002 HYPERVISOR: exec_cmd: vm create Ghost 0 c2600 
+May 03 12:16:07.003 VM: VM Ghost created.
+May 03 12:16:07.005 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/ssimoes/GNS3/images/IOS/c2600.image 
+May 03 12:16:07.006 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 03 12:16:07.007 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\c2600.image-80.ghost 
+May 03 12:16:07.007 HYPERVISOR: exec_cmd: vm set_ram Ghost 80 
+May 03 12:16:07.008 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 03 12:16:07.008 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+May 03 12:16:07.009 HYPERVISOR: exec_cmd: vm start Ghost 
+May 03 12:16:07.347 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 03 12:16:07.348 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 03 12:16:07.612 VM: VM Ghost shutdown.
+May 03 12:16:07.613 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+May 03 12:16:07.614 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 03 12:16:07.614 VM: VM Ghost destroyed.
+May 03 12:16:07.618 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+May 03 12:16:07.618 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\c2600.image-80.ghost 
+May 03 12:16:07.619 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:16:07.620 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+May 03 12:16:07.620 HYPERVISOR: exec_cmd: vm start R3 
+May 03 12:16:07.623 GHOST: loaded ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\c2600.image-80.ghost (fd=11) at addr=0xf5a10000 (size=0x5000000)
+May 03 12:16:07.623 GHOST: loaded image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\c2600.image-80.ghost successfully.
+May 03 12:16:37.887 HYPERVISOR: exec_cmd: vm extract_config R3 
+May 03 12:37:07.879 HYPERVISOR: exec_cmd: vm extract_config R3 
+May 03 12:37:40.656 HYPERVISOR: exec_cmd: vm get_status R3 
+May 03 12:37:40.657 HYPERVISOR: exec_cmd: vm stop R3 
+May 03 12:37:40.688 GHOST: unloaded ghost image C:\Users\ssimoes\Documents\GitRepos\PC_2021_2022\Assignment 4 - OSPF\gns3\Scenario 2\project-files\dynamips\c2600.image-80.ghost (fd=11) at addr=0xf5a10000 (size=0x5000000)
+May 03 12:37:40.885 VM: VM R3 shutdown.
+May 03 12:37:40.886 HYPERVISOR: exec_cmd: vm extract_config R3 
