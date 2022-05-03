@@ -1,0 +1,14 @@
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Ventura\GNS3\projects\NAT\project-files\dynamips
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Ventura/GNS3/projects/NAT/project-files/dynamips
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+% No memory map for code execution at 0x80697000
+% Unable to create instruction block for vaddr=0x80697000
+insn_page_compile: unable to create JIT block.
+VM 'R1': unable to compile block for CPU0 IA=0x806977c0
+% No memory map for code execution at 0x80697000
+% Unable to create instruction block for vaddr=0x80697000
+insn_page_compile: unable to create JIT block.
+VM 'R1': unable to compile block for CPU0 IA=0x806977c0
